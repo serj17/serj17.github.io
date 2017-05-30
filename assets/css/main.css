@@ -61,7 +61,7 @@ html, body {
   body {
     overflow-x: hidden;
   }
-  container {
+  container, row {
     max-width: 100%;
     overflow-x: hidden;
   }
