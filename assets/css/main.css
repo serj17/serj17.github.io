@@ -114,6 +114,8 @@ html, body {
   background-color: #ccc;
   border: 2px solid #1c415f;
   box-sizing: border-box;
+  margin-bottom: -2px;
+
 }
 
 
