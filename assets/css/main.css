@@ -97,7 +97,7 @@ html, body {
 }
 
 .calendar {
-  background-color: lightgrey;
+  background-color: #ddd;
   transition: background-color 0.5s ease;
   position: relative;
   padding: 30px;
@@ -111,7 +111,9 @@ html, body {
 }
 
 .calendar:hover {
-  background-color: white;
+  background-color: #ccc;
+  border: 2px solid #1c415f;
+  box-sizing: border-box;
 }
 
 
