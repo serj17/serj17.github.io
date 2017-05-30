@@ -57,6 +57,15 @@ html, body {
   overflow-x: hidden;
 }
 
+@media screen and (max-width: 667px) {
+  body {
+    overflow-x: hidden;
+  }
+  container {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
 
 * {
   font-family: lato;
