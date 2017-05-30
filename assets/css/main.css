@@ -174,3 +174,16 @@ html, body {
   margin-botton: 10px;
   padding-bottom: 30px;
 }
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.bio ul li {
+  margin:10px;
+}
+
+.partners {
+  margin: 30px 0 30px;
+}
