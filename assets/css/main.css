@@ -135,6 +135,7 @@ html, body {
   color: white;
   margin-top: 15x;
   margin-bottom: 15px;
+
 }
 
 #box-wrapper {
@@ -164,6 +165,12 @@ html, body {
   text-align: justify;
 }
 
-.bio h1, h2 {
+.bio h1, .bio h2 {
   color: #1c415f;
+}
+
+
+.education {
+  margin-botton: 10px;
+  padding-bottom: 30px;
 }
