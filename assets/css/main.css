@@ -159,3 +159,11 @@ html, body {
 .btn-primary, .btn-lg {
   border-radius: 0;
 }
+
+.bio {
+  text-align: justify;
+}
+
+.bio h1 {
+  color: #1c415f;
+}
