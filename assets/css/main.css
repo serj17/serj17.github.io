@@ -164,6 +164,6 @@ html, body {
   text-align: justify;
 }
 
-.bio h1 {
+.bio h1, h2 {
   color: #1c415f;
 }
