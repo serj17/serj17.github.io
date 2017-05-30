@@ -49,6 +49,10 @@ table {
 
 */
 
+body {
+  background-color: white;
+}
+
 * {
   font-family: lato;
   font-weight: 400;
@@ -58,13 +62,17 @@ table {
 
 
 
+.jumbotron {
+  margin: 0;
+}
+
 .highlight {
   background-color: #1b75bb;
   color: white;
   mix-blend-mode: multiply;
   text-transform: uppercase;
   margin: 100px auto;
-  padding: 10px 0 20px 0;
+  padding: 20px;
   opacity: 0.9;
   transition: opacity 0.5s ease;
 }
@@ -74,8 +82,32 @@ table {
   cursor: pointer;
 }
 
-.highlight p, h4, h2, a {
-  mix-blend-mode: unset;
+.calendar {
+  background-color: lightgrey;
+  padding: 2px;
+  margin: 4px 2px;
+  transition: background-color 0.5s ease
+}
+
+.calendar h2 {
+  color: #1c415f;
+  margin: 10px;
+}
+
+.calendar:hover {
+  background-color: white;
+}
+
+@media screen and (max-width: 533px) {
+  .highlight {
+      mix-blend-mode: unset;
+      background-color: #1c415f;
+  }
+}
+
+.title {
+  background-color: #1c415f;
+  padding: 30px;
   color: white;
 }
 
@@ -94,4 +126,8 @@ table {
 
 .navbar {
   box-shadow: 0 8px 6px -6px #999;
+}
+
+.btn-primary, .btn-lg {
+  border-radius: 0;
 }
