@@ -254,7 +254,7 @@ xgallery
 -------------------------------- */
 .cd-gallery {
   padding: 26px 5%;
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 .cd-gallery li {
@@ -279,6 +279,7 @@ xgallery
 @media only screen and (min-width: 768px) {
   .cd-gallery {
     padding: 40px 3%;
+    width: 60%;
   }
   .cd-gallery ul {
     text-align: justify;
@@ -306,7 +307,7 @@ xgallery
   }
   .cd-gallery.filter-is-visible {
     /* reduce width when filter is visible */
-    width: 50%;
+    width: 60%;
   }
 }
 
