@@ -671,13 +671,23 @@ xcustom form elements
 
 }
 
-.moreInfo p {
-  padding: 2px;
-  font-weight: 600;
-}
+
 
 h1.composer {
   margin: 1em 0 1em;
   font-weight: 600;
   cursor: pointer;
+}
+
+ul.composer li p {
+  font-weight: 400;
+  padding: 0.5em;
+  cursor: text;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+strong {
+  font-weight: 600;
+  color: #1c415f;
 }
