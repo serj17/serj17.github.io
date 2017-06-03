@@ -7,6 +7,11 @@ jQuery(document).ready(function($){
 		triggerFilter(false);
 	});
 
+// beta code to hide composer name when their songs are not displayed
+	if($('li.mix').length) {
+		$('h1.composer').show();
+	};
+
 	function triggerFilter($bool) {
 		var elementsToTrigger = $([$('.cd-filter-trigger'), $('.cd-filter'), $('.cd-tab-filter'), $('.cd-gallery')]);
 		elementsToTrigger.each(function(){
@@ -16,7 +21,7 @@ jQuery(document).ready(function($){
 
 		$(function() {
 
-		  $("li#moreInfo").click(function() {
+		  $("li.moreInfoBtn").click(function() {
 		    $(this).children('div.moreInfo').slideToggle(300);
 		    return false;
 		  });
@@ -29,6 +34,7 @@ jQuery(document).ready(function($){
 				return false;
 			});
 		});
+
 
 
 	//mobile version - detect click event on filters tab
