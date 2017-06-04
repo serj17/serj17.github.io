@@ -7,10 +7,8 @@ jQuery(document).ready(function($){
 		triggerFilter(false);
 	});
 
-// beta code to hide composer name when their songs are not displayed
-	if($('li.mix').length) {
-		$('h1.composer').show();
-	};
+
+
 
 	function triggerFilter($bool) {
 		var elementsToTrigger = $([$('.cd-filter-trigger'), $('.cd-filter'), $('.cd-tab-filter'), $('.cd-gallery')]);
