@@ -7,7 +7,13 @@ jQuery(document).ready(function($){
 		triggerFilter(false);
 	});
 
-
+	$( "h1.composer" ).each(function() {
+	    if ($(this).next('ul').find('li:visible').length === 0) {
+	        $(this).hide();
+	    } else {
+	        $(this).show();
+	    }
+	});
 
 
 	function triggerFilter($bool) {
