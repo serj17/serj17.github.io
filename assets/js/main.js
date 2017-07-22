@@ -7,6 +7,7 @@ jQuery(document).ready(function($){
 		triggerFilter(false);
 	});
 
+/*
 	$( "h1.composer" ).each(function() {
 	    if ($(this).next('ul').find('li:visible').length === 0) {
 	        $(this).hide();
@@ -14,7 +15,7 @@ jQuery(document).ready(function($){
 	        $(this).show();
 	    }
 	});
-
+*/
 
 	function triggerFilter($bool) {
 		var elementsToTrigger = $([$('.cd-filter-trigger'), $('.cd-filter'), $('.cd-tab-filter'), $('.cd-gallery')]);
@@ -23,6 +24,7 @@ jQuery(document).ready(function($){
 		});
 	}
 
+		//More info panel opening
 		$(function() {
 
 		  $("li.moreInfoBtn").click(function() {
